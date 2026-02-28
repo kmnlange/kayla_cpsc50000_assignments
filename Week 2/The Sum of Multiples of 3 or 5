@@ -1,0 +1,15 @@
+Natural_Numbers = list()
+Number = 0
+
+for Number in range(0,1000):
+    if Number % 3 == 0:
+        Natural_Numbers.append(Number)
+        Number = Number + 1
+    elif Number % 5 == 0:
+        Natural_Numbers.append(Number)
+        Number = Number + 1
+    else:
+        Number = Number + 1
+
+total = sum(Natural_Numbers)
+print(total)
