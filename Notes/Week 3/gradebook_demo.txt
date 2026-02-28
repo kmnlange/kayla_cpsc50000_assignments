@@ -1,0 +1,14 @@
+# Gradebook demo file (CSV-like)
+# Columns: first,last,major,course_number,course_name,term,score
+# term format: fa|sp|su + YYYY (e.g., sp2025)
+# score is a float from 0.0 to 4.0
+
+Ava,Johnson,Computer Science,CS101,Intro to Programming,fa2024,3.7
+Mateo,Rivera,Nursing,NURS110,Foundations of Nursing,sp2025,3.2
+Priya,Patel,Computer Science,CS201,Data Structures,sp2025,3.9
+Noah,Kim,Business,BUS210,Principles of Marketing,su2024,2.8
+Sophia,Martin,Psychology,PSY101,Intro to Psychology,fa2024,3.5
+Liam,Chen,Computer Science,CS330,Databases,sp2025,four      # bad score (not a float)
+Emma,Davis,Education,EDU205,Teaching Methods,spring2025,3.1   # bad term format
+Oliver,Brown,Computer Science,CS250,Computer Organization,fa2024,4.5  # out of range
+Mia,Garcia,Computer Science,CS140,,fa2024,3.0                # missing course name
