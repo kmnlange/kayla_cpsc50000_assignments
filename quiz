@@ -1,4 +1,0 @@
-value = input('Please enter a value between 1 and 10:')
-value = int(value)
-
-print(f'You entered{value}')

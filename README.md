@@ -1,2 +1,0 @@
-# kayla_cpsc50000_assignments
-Visible assignments
